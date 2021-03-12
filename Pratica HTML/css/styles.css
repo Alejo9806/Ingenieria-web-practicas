@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: arial, sans-serif;
+}
+.bandas{
+    background-image: url(../img/bandas.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.list {
+    margin-left: 25%;
+    padding-top: 5%;
+}
+.list li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 60px;
+    
+}
+
+.nirvana{
+    background-image: url(../img/kurt_cobain_efe.webp) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 170vh;
+    
+}
+.metalica{
+    background-image: url(../img/metal.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 170vh;
+}
+.guns{
+    background-image: url(../img/gansos.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 170vh;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+
+  .bio{
+      margin-left: 50%;
+      padding: 5%;
+      color: #fff;
+  
+  }
+  .biom{
+    padding: 5%;
+    color: #fff;
+
+  }
+  .table{
+
+      margin: 10%;
+      color: #fff;
+  }
+  .members{
+     margin-top: 2%;
+      margin-left: 10%;
+      color: #fff;
+  }
+  .web{
+      margin-top: 2%;
+    margin-left: 10%;
+    text-decoration: none;
+    color: #fff;
+  }
+  .button{
+    margin-top: 2%;
+    margin-left: 10%;
+      padding: 1%;
+  }
