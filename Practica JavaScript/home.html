@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Pangrama.</h1>
+                <label for="pangrama">Ingrese pangrama</label>
+                <br><br>
+                <textarea name="pangrama" id="pangrama" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <button onclick="obtener()">Verificar</button>
+           <div id="resultado">
+               
+           </div>
+    </div>
+    <hr>
+    <div>
+        <h1>Ingresa un año y enterate si es biciesto :)</h1>
+        <input type="text" placeholder="ingresa un año" id="año">
+        <button onclick="obteneraño()">Verificar</button>
+        <div id="resultadoAño">
+       
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h1>Ingrese una cadena de caracteres y encontraremos cual no son unicos</h1>
+        <h5>No ingrese comas gracias <3</h5>
+        <input type="text" placeholder="ingrese caracteres" id="caracteres">
+        <button onclick="obtenercaracteres()">Verificar</button>
+        <div>
+            <h1 id="resultadot"></h1>
+            <p id="resultadocaracter"></p>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h1>Ingrese un numero para convertir a romano</h1>
+        <input type="text" placeholder="ingrese numero" id="numero">
+        <button onclick="obtenerNumero()">Verificar</button>
+        <div>
+            <h1 id="resultadoR"></h1>
+            <p id="resultadoNumero"></p>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery.js"></script>
+<script src="./js/pangrama.js"></script>
+<script src="./js/biciesto.js"></script>
+<script src="./js/lista.js"></script>
+<script src="./js/romanos.js"></script>
+</html>
+
